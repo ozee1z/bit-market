@@ -1,0 +1,1 @@
+This is a practice project on how to use an API in a website.
