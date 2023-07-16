@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(#f4ffff #f2f1fc);
+}
+
+.hero-section {
+    margin-top: 150px; 
+    height: 80vh; 
+}
+
+.btc-img {
+    width: 420px;  
+}
+
+.market-section {
+    margin-top: 100px;
+}
+
+.chooseUs-section {
+    margin-top: 100px;
+}
+
+.cardborder {
+    border-radius: 10%;
+}
+
+.joinSection {
+    margin-top: 150px;
+}
+
+.border-card{
+    background-color:beige;
+}
+
+.f-size {
+    font-size: 13px;
+    width:120px;
+    height: 48px;
+}
+
+.btn-font-size {
+    font-size:10px;
+    background-color: #F8F8F8;
+}
+
+.btn-font-size:hover {
+    background-color: #F8F8F8;
+}
+
+.btn-market{
+    font-size:12px;
+    background-color: #F8F8F8;
+}
+
+.icon-margin{
+    margin-left: 120px;
+}
+
+.footer-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+/*Media queries styles*/
+@media only screen and (max-width: 480px) {
+    /*Hero Section*/
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        height: auto;
+    }
+
+    .hero-section button {
+        margin-top: 10px !important;
+    }
+
+    .btc-img {
+        width: 80%;  
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    /*Cards section*/
+    .cryptoTrade{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Join section*/
+    .joinSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .col-6 {
+        width: 100%;
+      }
+    
+  /* Footer Section */
+  .footer-section {
+    margin-top: 300px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  }
