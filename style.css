@@ -64,12 +64,12 @@ body {
 @media only screen and (max-width: 480px) {
     /*Hero Section*/
     .hero-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 100px;
-        height: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-top: 100px !important;
+        height: auto !important;
     }
 
     .hero-section button {
@@ -90,11 +90,11 @@ body {
 
     /*Join section*/
     .joinSection{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        height: auto !important;
     }
 
     .col-6 {
@@ -103,10 +103,11 @@ body {
     
   /* Footer Section */
   .footer-section {
-    margin-top: 300px;
-    margin-bottom: 100px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    margin-top: 300px !important;
+    margin-bottom: 100px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
   }
   }
