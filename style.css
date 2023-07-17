@@ -63,20 +63,20 @@ body {
 /*Media queries styles*/
 @media only screen and (max-width: 480px) {
     /*Hero Section*/
-    .hero-section {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        margin-top: 100px !important;
-        height: auto !important;
+    .hero-section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        height: auto;
     }
 
-    .hero-section button {
+    .hero-section1 button {
         margin-top: 10px !important;
     }
 
-    .btc-img {
+    .btc-img1 {
         width: 80%;  
         max-width: 300px;
         margin-top: 20px;
@@ -89,25 +89,25 @@ body {
     }
 
     /*Join section*/
-    .joinSection{
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        height: auto !important;
+    .joinSection1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
     }
 
-    .col-6 {
+    .col1-6 {
         width: 100%;
       }
     
   /* Footer Section */
-  .footer-section {
-    margin-top: 300px !important;
-    margin-bottom: 100px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
+  .footer-section1 {
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   }
