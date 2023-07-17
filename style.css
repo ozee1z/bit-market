@@ -61,7 +61,7 @@ body {
 }
 
 /*Media queries styles*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
     /*Hero Section*/
     .hero-section1 {
         display: flex;
