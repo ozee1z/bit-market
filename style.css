@@ -63,7 +63,7 @@ body {
 /*Media queries styles*/
 @media only screen and (max-width: 480px) {
     /*Hero Section*/
-    .hero-section1 {
+    .hero-section {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -72,11 +72,11 @@ body {
         height: auto;
     }
 
-    .hero-section1 button {
+    .hero-section button {
         margin-top: 10px !important;
     }
 
-    .btc-img1 {
+    .btc-img {
         width: 80%;  
         max-width: 300px;
         margin-top: 20px;
@@ -94,7 +94,7 @@ body {
     }
 
     /*Join section*/
-    .joinSection1{
+    .joinSection{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -107,7 +107,7 @@ body {
       }
     
   /* Footer Section */
-  .footer-section1 {
+  .footer-section {
     margin-top: 300px;
     margin-bottom: 100px;
     display: flex;
