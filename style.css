@@ -82,6 +82,11 @@ body {
         margin-top: 20px;
     }
 
+    /*Market section*/
+    .table-responsive {
+        overflow-x: auto;
+      }
+
     /*Cards section*/
     .cryptoTrade{
         margin-left: auto;
